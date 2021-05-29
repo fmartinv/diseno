@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6eIipYSxP.woff2)
+    format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'palmer';
+  src: url(/assets/PalmerLakePrint-Regular.otf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  font-family: 'Poppins', sans-serif !important;
+}
+.logo {
+  height: 23vh;
+  width: 23vh;
+}
+.wave {
+  background: #606060;
+  color: white;
+}
+.wave svg {
+  display: block;
+}
+.cajamarilla {
+  background-color: #fdc400;
+  overflow: hidden;
+}
+
+.white {
+  background-color: #ffff;
+  width: 100%;
+  padding: 10%;
+}
+.icons img {
+  height: 9rem;
+  width: 9rem;
+}
+.marginadjust {
+  margin: auto;
+}
+.imgmain {
+  height: 31rem;
+  width: 33rem;
+  margin-top: 0;
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.col-md-6 .divtexto {
+  padding-top: 10%;
+  padding-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cursiva {
+  font-size: 4rem;
+  font-weight: 500;
+  font-style: italic;
+  font-family: 'palmer';
+}
+.grande {
+  font-size: 7rem;
+  font-family: 'palmer';
+  font-weight: 600;
+  padding: 0;
+  line-height: 40%;
+  margin-bottom: 1rem;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .cajamarilla {
+    height: auto;
+  }
+} */
+/* @media only screen and (min-width: 768px) {
+  .cajamarilla {
+    background-color: #fdc400;
+    width: 100%;
+     height: auto; 
+  }
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  .cajamarilla {
+    background-color: #fdc400;
+    width: 100%;
+    
+  }
+} */
