@@ -21,11 +21,12 @@ body {
   font-family: 'Poppins', sans-serif !important;
 }
 .logo {
-  height: 7rem;
-  width: 7rem;
+  height: 9rem;
+  width: 9.2rem;
+  padding: 0%;
 }
 .wave {
-  background: #606060;
+  background: #6e6d68;
   color: white;
 }
 .wave svg {
@@ -49,15 +50,15 @@ body {
   margin: auto;
 }
 .imgmain {
-  height: 31rem;
+  height: 33rem;
   width: 33rem;
   margin-top: 0;
-  padding-top: 1rem;
+  padding-top: 0;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 .col-md-6 .divtexto {
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 0;
   margin-left: auto;
   margin-right: auto;
@@ -68,14 +69,26 @@ body {
   font-weight: 500;
   font-style: italic;
   font-family: 'palmer';
+  line-height: 14%;
 }
 .grande {
-  font-size: 7rem;
+  font-size: 12rem;
   font-family: 'palmer';
-  font-weight: 600;
+  font-weight: 500;
   padding: 0;
-  line-height: 40%;
+  line-height: 42%;
   margin-bottom: 1rem;
+  letter-spacing: 0.5rem;
+}
+#blanco {
+  color: #ffff;
+  font-size: 8rem;
+}
+p {
+  font-size: 10%;
+  /* letter-spacing: 3%; */
+  text-indent: 3%;
+  line-height: 1.6rem;
 }
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
@@ -83,19 +96,18 @@ body {
     height: auto;
   }
 } */
-/* @media only screen and (min-width: 768px) {
-  .cajamarilla {
-    background-color: #fdc400;
-    width: 100%;
-     height: auto; 
-  }
-} */
+@media only screen and (min-width: 768px) {
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {
-  .cajamarilla {
-    background-color: #fdc400;
-    width: 100%;
-    
+@media only screen and (max-width: 600px) {
+  .imgmain {
+    height: 24rem;
+    width: 24rem;
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-right: 20%;
   }
-} */
+}
