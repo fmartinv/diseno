@@ -80,12 +80,25 @@ body {
   margin-bottom: 1rem;
   letter-spacing: 0.5rem;
 }
+.mediano {
+  font-size: 6.5rem;
+  font-family: 'palmer';
+  font-weight: 500;
+  padding: 0;
+  line-height: 42%;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5rem;
+}
+h2 {
+  width: 100vw;
+  display: inline-block;
+}
 #blanco {
   color: #ffff;
   font-size: 8rem;
 }
 p {
-  font-size: 10%;
+  font-size: 1rem;
   /* letter-spacing: 3%; */
   text-indent: 3%;
   line-height: 1.6rem;
@@ -103,11 +116,11 @@ p {
 @media only screen and (max-width: 600px) {
   .imgmain {
     height: 24rem;
-    width: 24rem;
+    width: 28rem;
     margin-top: 0;
     padding-top: 1rem;
     padding-bottom: 0;
     margin-bottom: 0;
-    padding-right: 20%;
+    padding-right: 0;
   }
 }
