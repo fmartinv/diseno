@@ -22,15 +22,22 @@ body {
 }
 .logo {
   height: 9rem;
-  width: 9.2rem;
+  width: 9rem;
   padding: 0%;
 }
 .wave {
   background: #6e6d68;
   color: white;
+  /* position: relative; */
 }
+
 .wave svg {
-  display: block;
+  position: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 24vh;
+  width: 100%;
 }
 .cajamarilla {
   background-color: #fdc400;
