@@ -43,6 +43,10 @@ body {
   background-color: #fdc400;
   overflow: hidden;
 }
+.cajablanca {
+  background-color: #ffff;
+  overflow: hidden;
+}
 
 .white {
   background-color: #ffff;
@@ -114,6 +118,9 @@ p {
   font-size: 14px;
   line-height: 1.2rem;
   font-weight: 500;
+}
+.card {
+  outline: 0px solid transparent !important;
 }
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
