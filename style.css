@@ -53,8 +53,8 @@ body {
   padding: 10%;
 }
 .icons img {
-  height: 8rem;
-  width: 8rem;
+  height: 7rem;
+  width: 7rem;
 }
 .marginadjust {
   margin: auto;
@@ -82,7 +82,7 @@ body {
   line-height: 14%;
 }
 .grande {
-  font-size: 11rem;
+  font-size: 10rem;
   font-family: 'palmer';
   font-weight: 500;
   padding: 0;
@@ -109,7 +109,6 @@ h2 {
 }
 p {
   font-size: 1rem;
-  /* letter-spacing: 3%; */
   text-indent: 3%;
   line-height: 1.5rem;
 }
