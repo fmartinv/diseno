@@ -112,6 +112,9 @@ p {
   line-height: 1.2rem;
   font-weight: 500;
 }
+.carrouselimg {
+  height: 90vh !important;
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
