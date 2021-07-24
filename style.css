@@ -15,6 +15,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
 }
 body {
   width: 100%;
@@ -26,19 +27,12 @@ body {
   width: 6.9rem;
   padding: 0%;
 }
-.wave {
+.navgris {
   background: #6e6d68;
   color: white;
+  transition: all 1s ease;
 }
 
-.wave svg {
-  position: inherit;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  height: 24vh;
-  width: 100%;
-}
 .cajamarilla {
   background-color: #fdc400;
   overflow: hidden;
@@ -76,10 +70,10 @@ body {
 }
 
 .cursiva {
-  font-size: 4rem;
-  font-weight: 500;
-  font-style: italic;
-  font-family: 'palmer';
+  font-size: 2.2rem;
+  font-weight: 400;
+  font-style: oblique;
+  font-family: 'poppins';
   line-height: 14%;
 }
 .grande {
@@ -87,16 +81,16 @@ body {
   font-family: 'palmer';
   font-weight: 500;
   padding: 0;
-  line-height: 35%;
+  line-height: 25%;
   margin-bottom: 1rem;
   letter-spacing: 0.5rem;
 }
 .mediano {
-  font-size: 6.5rem;
+  font-size: 6rem;
   font-family: 'palmer';
   font-weight: 500;
   padding: 0;
-  line-height: 42%;
+  line-height: 40%;
   margin-bottom: 1rem;
   letter-spacing: 0.5rem;
 }
