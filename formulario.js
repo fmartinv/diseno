@@ -1,10 +1,10 @@
-// console.log('funcionando');
+console.log('funcionando');
 $('#formulario').submit(function (event) {
   event.preventDefault(); //almacena los datos sin refrescar el sitio web.
   enviar();
 });
 function enviar() {
-  //console.log("ejecutado");
+  console.log('ejecutado');
   var datos = $('#formulario').serialize(); //toma los datos "name" y los lleva a un arreglo.
   $.ajax({
     type: 'post',
