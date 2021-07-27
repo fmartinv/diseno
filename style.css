@@ -31,14 +31,14 @@ footer {
   padding: 0%;
 }
 .navgris {
-  background: #6e6d68;
+  background-color: #6e6d68;
   color: white;
-  transition: all 1s ease;
 }
 
 .cajamarilla {
   background-color: #fdc400;
   overflow: hidden;
+  margin: 0;
 }
 .cajablanca {
   background-color: #ffff;
