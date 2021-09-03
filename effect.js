@@ -24,6 +24,6 @@ typeEffect(h1, speed);
 
 // type affect to body
 setTimeout(function () {
-  p.style.display = 'inline-block';
-  typeEffect(p, speed);
+  h1.style.display = 'inline-block';
+  typeEffect(h1, speed);
 }, delay);
