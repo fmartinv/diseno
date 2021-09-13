@@ -124,6 +124,9 @@ p {
   margin-bottom: 0px;
   padding-bottom: 1px;
 }
+.text-white {
+  letter-spacing: 0.1rem;
+}
 
 /*effects*/
 @-webkit-keyframes hvr-pulse-grow {
